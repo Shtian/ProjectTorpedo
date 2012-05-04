@@ -1,0 +1,13 @@
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\bin\Debug\ProjectTorpedo.Tests.dll.config
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\bin\Debug\ProjectTorpedo.Tests.dll
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\bin\Debug\ProjectTorpedo.Tests.pdb
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\bin\Debug\ProjectTorpedo.dll
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\bin\Debug\EntityFramework.dll
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\bin\Debug\System.Web.Optimization.dll
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\bin\Debug\ProjectTorpedo.pdb
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\bin\Debug\EntityFramework.xml
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\obj\Debug\ProjectTorpedo.Tests.csprojResolveAssemblyReference.cache
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\obj\Debug\ProjectTorpedo.Tests.dll
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\obj\Debug\ProjectTorpedo.Tests.pdb
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\bin\Debug\log4net.dll
+D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo.Tests\bin\Debug\log4net.xml
