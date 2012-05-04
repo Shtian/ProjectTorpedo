@@ -1,0 +1,73 @@
+@using System.Web.Optimization
+@using ProjectTorpedo.Util
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - @Global.ProjectName</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site for keeping track of the games, books and movies that you so kindly have borrowed to your friends.">
+        <meta name="author" content="Stian Haga">
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="@Url.Content("~/Content/less/bootstrap.less")" rel="stylesheet" type="text/css" />
+        <link href="@Url.Content("~/Content/less/responsive.less")" rel="stylesheet" type="text/css" />
+        <link href="@Url.Content("~/Content/less/style.less")" rel="stylesheet" type="text/css"/>
+        <script src="@BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")"> </script>
+    </head>
+    <body>  
+        
+                
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="span9">
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <div class="container">
+                                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </a>
+                                    @Html.ActionLink(Global.ProjectName, "Index", "Home", new{@class = "brand"})
+                                    <div class="nav-collapse">
+                                        <ul class="nav">
+                                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                                            <li>@Html.ActionLink("Admin", "Index", "Admin")</li>
+                                        </ul>
+                                        @Html.Partial("_LoginPartial")
+                                    </div><!--/.nav-collapse -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </header>
+                  
+
+        <div class="container">
+            <div class="row">
+                <div class="span9">
+                    <div class="hero-unit">
+                        @RenderSection("featured", required: false)
+                        @RenderBody()
+                    </div>
+                </div><!--/span-->
+            </div><!--/row-->
+        </div><!--/.fluid-container-->
+        
+        <div class="container">
+            <div class="row">
+                <div class="span9">
+                    <hr>
+                    <footer>
+                        <p>&copy; Company 2012</p>
+                    </footer>
+                </div><!--/span-->
+            </div><!--/row-->
+        </div><!--/.fluid-container-->
+    </body>
+</html>

@@ -1,0 +1,50 @@
+﻿@model ProjectTorpedo.Models.Loan
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Loan</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Owner.Username)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Owner.Username)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LoanerName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LoanerName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.StartDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.StartDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.EndDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EndDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Game.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Game.Name)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.LoanId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

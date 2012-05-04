@@ -1,0 +1,53 @@
+﻿@model ProjectTorpedo.Models.Loan
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Loan</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Owner.Username)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Owner.Username)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LoanerName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LoanerName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.StartDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.StartDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.EndDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EndDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Game.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Game.Name)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

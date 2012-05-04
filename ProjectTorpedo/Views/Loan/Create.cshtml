@@ -1,0 +1,76 @@
+﻿@model ProjectTorpedo.Models.Loan
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<script>
+    $(function () {
+        $("#StartDate").datepicker({ firstDay: 1 });
+        $("#StartDate").datepicker("setDate", new Date());
+        $("#EndDate").datepicker({ firstDay: 1, minDate: 0 });
+        var date = $("#StartDate").text();
+        $("#EndDate").datepicker("setDate", date + 14);
+
+        $("#LoanerName").autocomplete({
+            source: '/Autocomplete/Users',
+            minLength: 1,
+            dataType: "json",
+            delay: 0,
+            autoFocus: true
+        });
+    });
+</script>
+
+<h2>Create</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Loan</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LoanerName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LoanerName) 
+            @Html.ValidationMessageFor(model => model.LoanerName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.StartDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.StartDate, new { id = "datepicker"}) <small class="helper-text">(MM/DD/YYYY)</small>
+            @Html.ValidationMessageFor(model => model.StartDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EndDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EndDate, new { id = "datepicker"}) <small class="helper-text">(MM/DD/YYYY)</small>
+            @Html.ValidationMessageFor(model => model.EndDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.GameId, "Game")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("GameId", String.Empty)
+            @Html.ValidationMessageFor(model => model.GameId)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

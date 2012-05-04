@@ -1,0 +1,50 @@
+﻿@model ProjectTorpedo.Models.Game
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Game</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MetaRating)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MetaRating)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Release)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Release)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Description)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Description)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Platform.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Platform.Name)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

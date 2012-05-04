@@ -1,0 +1,219 @@
+﻿@model CodeFirstMembershipSharp.User
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>User @Html.DisplayFor(model => model.Username)</legend>
+    
+    <img src="@ProjectTorpedo.Util.Global.GetGravatarURL("hagastian@gmail.com", 80)" class="pull-right"/>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Property</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="display-label">
+                        @Html.DisplayNameFor(model => model.Username)
+                    </div>
+                </td>
+                <td><div class="display-field">
+                        @Html.DisplayFor(model => model.Username)
+                    </div></td>
+            </tr>
+            <tr>
+                <td><div class="display-label">
+                        @Html.DisplayNameFor(model => model.Email)
+                    </div></td>
+                </td>
+                <td><div class="display-field">
+                        @Html.DisplayFor(model => model.Email)
+                    </div>
+
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.FirstName)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.FirstName)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.LastName)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.LastName)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.Comment)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.Comment)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.IsApproved)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.IsApproved)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.PasswordFailuresSinceLastSuccess)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.PasswordFailuresSinceLastSuccess)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.LastPasswordFailureDate)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.LastPasswordFailureDate)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                          <div class="display-label">
+                              @Html.DisplayNameFor(model => model.LastActivityDate)
+                          </div>
+                      </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.LastActivityDate)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.LastLockoutDate)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.LastLockoutDate)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.LastLoginDate)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.LastLoginDate)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.CreateDate)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.CreateDate)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.IsLockedOut)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.IsLockedOut)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.LastPasswordChangedDate)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.LastPasswordChangedDate)
+                          </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="display-label">
+                              @Html.DisplayNameFor(model => model.DateOfBirth)
+                          </div>
+                </td>
+                <td>
+                    <div class="display-field">
+                              @Html.DisplayFor(model => model.DateOfBirth)
+                          </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new {id = Model.UserId}) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
