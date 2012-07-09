@@ -1,3 +1,5 @@
 _ReSharper.ProjectTorpedo/
 packages/
 .svn/
+ProjectTorpedo/obj/
+ProjectTorpedo.Tests/obj/
