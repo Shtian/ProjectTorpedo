@@ -39,3 +39,42 @@ D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo\bin\log4net.xml
 D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo\bin\Glimpse.Core.dll
 D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo\bin\Glimpse.Mvc3.dll
 D:\My Dropbox\PROMETHEUS\ProjectTorpedo\ProjectTorpedo\obj\Debug\ProjectTorpedo.csprojResolveAssemblyReference.cache
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\ProjectTorpedo.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\ProjectTorpedo.pdb
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\dotless.Core.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\EntityFramework.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\Glimpse.Core.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\Glimpse.Mvc3.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\log4net.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\Newtonsoft.Json.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Net.Http.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Net.Http.Formatting.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Net.Http.WebRequest.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Helpers.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Http.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Http.WebHost.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Mvc.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Optimization.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Providers.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Razor.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.WebPages.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\EntityFramework.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\log4net.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\Newtonsoft.Json.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Net.Http.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Net.Http.Formatting.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Net.Http.WebRequest.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Helpers.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Http.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Http.WebHost.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Mvc.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.Razor.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.WebPages.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\obj\Debug\ProjectTorpedo.csprojResolveAssemblyReference.cache
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\obj\Debug\ProjectTorpedo.dll
+C:\Users\Shtian\Documents\GitHub\ProjectTorpedo\ProjectTorpedo\obj\Debug\ProjectTorpedo.pdb
