@@ -5,8 +5,67 @@
 html{
 	min-height: 100%;
 	body {
+		display: block;
 		#gradient > .directional(@brand, @brandDark);
 	}
+}
+
+/* NAV BARS */
+
+.navbar{
+	.brand{
+		color: #555;
+	}
+}
+
+.navbar	.nav > li > a{
+	font-size: 20px;
+	color: #555;
+}
+
+#user-avatar-button {
+	border: 2px solid #999;
+	margin: 11px 10px;
+	background-image: url("/Images/cc/black/32/user_icon32.png");
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 36px;
+	height: 36px;
+	&:hover {
+		border-color: #777;
+		cursor: pointer;
+	}
+}
+
+#user-context-menu {
+	display: none; /*For the div not to show before toggle is triggered*/
+	position: absolute;
+	top: 70px;
+	right: 360px;
+	width: 150px;
+	height: auto;
+	border: 1px solid #000;
+	background-color: #FFF;
+	ul {
+		margin: 5px;
+		list-style: none;
+	}
+	li{
+		text-align: right;
+		font-size: @baseFontSize + 2;
+		padding: 4px;
+	}
+}
+
+/* CONTENT DIVS*/
+
+#page-wrapper {
+	position: relative;
+}
+
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .helper-text {
@@ -16,4 +75,9 @@ html{
 
 .hasDatepicker {
 	width: 70px;
+}
+
+.hero-unit {
+	padding: 15px;
+	min-height: 500px;
 }

@@ -1,5 +1,35 @@
-﻿@if (Request.IsAuthenticated) {
-    <p class="navbar-text pull-right">Logged in as @Html.ActionLink(User.Identity.Name, "ChangePassword", "Account", routeValues: null, htmlAttributes: new { title = "Change password" })!@Html.ActionLink("Log off", "LogOff", "Account", routeValues: null, htmlAttributes: new{ @class = "btn btn-small" })</p>
+﻿
+
+<script>
+    $(function () {
+
+        function toggleEffect() {
+            $('#user-context-menu').toggle('blind', 500);
+        };
+
+        // set effect from select menu value
+        $("#user-avatar-button").click(function () {
+            toggleEffect();
+            return false;
+        });
+    });
+</script>
+
+@if (Request.IsAuthenticated) {
+    <img src="@ProjectTorpedo.Util.Global.GetGravatarURL(Membership.GetUser(User.Identity.Name).Email, 32)" class="pull-right" id="user-avatar-button"/>
+    <p class="navbar-text pull-right">Logged in as @Html.ActionLink(User.Identity.Name, "ChangePassword", "Account", routeValues: null, htmlAttributes: new { title = "Change password" })!</p>
+    <div id="user-context-menu">
+        <ul>
+            <li>
+                Profile @*TODO
+                @Html.ActionLink("Profile", "Profile", "Account", routeValues: null, htmlAttributes: new{ @class = "" })*@
+            </li>
+            <li>
+                @Html.ActionLink("Sign out", "LogOff", "Account", routeValues: null, htmlAttributes: new{ @class = "" })
+            </li>
+        </ul>
+
+    </div>
 } else {
     <p class="navbar-text pull-right">@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", data_dialog_title = "Registration", @class = "btn btn-small" })@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink", data_dialog_title = "Identification", @class = "btn btn-small"  })</p>
 }
