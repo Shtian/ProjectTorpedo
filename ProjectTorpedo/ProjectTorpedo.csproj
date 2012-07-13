@@ -1138,7 +1138,7 @@
     <Content Include="Images\cc\black\32\twitter_icon&amp;32.png" />
     <Content Include="Images\cc\black\32\undo_icon&amp;32.png" />
     <Content Include="Images\cc\black\32\users_icon&amp;32.png" />
-    <Content Include="Images\cc\black\32\user_icon&amp;32.png" />
+    <Content Include="Images\cc\black\32\user_icon32.png" />
     <Content Include="Images\cc\black\32\vault_icon&amp;32.png" />
     <Content Include="Images\cc\black\32\wallet_icon&amp;32.png" />
     <Content Include="Images\cc\black\32\wifi_router_icon&amp;32.png" />

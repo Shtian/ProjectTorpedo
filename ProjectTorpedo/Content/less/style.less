@@ -40,11 +40,11 @@ html{
 #user-context-menu {
 	display: none; /*For the div not to show before toggle is triggered*/
 	position: absolute;
-	top: 70px;
+	top: 85px;
 	right: 360px;
-	width: 150px;
+	width: 130px;
 	height: auto;
-	border: 1px solid #000;
+	border: 2px solid #666;
 	background-color: #FFF;
 	ul {
 		margin: 5px;
@@ -55,6 +55,30 @@ html{
 		font-size: @baseFontSize + 2;
 		padding: 4px;
 	}
+}
+
+#user-context-menu:after, #user-context-menu:before {
+	bottom: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+#user-context-menu:after {
+	border-bottom-color: #ffffff;
+	border-width: 14px;
+	left: 98%;
+	margin-left: -29px;
+}
+
+#user-context-menu:before {
+	border-bottom-color: #666666;
+	border-width: 16px;
+	left: 98%;
+	margin-left: -31px;
 }
 
 /* CONTENT DIVS*/
